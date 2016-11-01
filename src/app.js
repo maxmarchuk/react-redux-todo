@@ -10,7 +10,8 @@ const dummyTodos = [
     { id: 3, isDone: false, text: 'Consider buying a boat' }
 ];
 
-function App () {
+
+const App = () => {
     return <ToDoList todos={ dummyTodos }/>
 };
 
